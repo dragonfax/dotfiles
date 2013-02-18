@@ -4,3 +4,5 @@
 eval "$(/Users/dragonfax/.zendesk/z/bin/z init -)"
 
 export PATH="$PATH:/usr/local/share/npm/bin"
+
+alias dg='git --git-dir=/Users/dragonfax/.dotfiles --work-tree=/Users/dragonfax'
