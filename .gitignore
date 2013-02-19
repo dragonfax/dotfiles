@@ -27,7 +27,6 @@
 .swt/
 .twitter_oauth
 .vagrant.d/
-.vim/
 .viminfo
 .zendesk/
 Applications/
@@ -44,3 +43,4 @@ Public/
 code/
 data/
 workspace/
+.vim/.netrwhist
