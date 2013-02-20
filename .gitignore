@@ -44,3 +44,13 @@ code/
 data/
 workspace/
 .vim/.netrwhist
+
+.cups/
+.gitk
+.gnupg/
+.rediscli_history
+.ssh/production_id_rsa
+VirtualBox VMs/
+z/
+zendesk_pods/
+

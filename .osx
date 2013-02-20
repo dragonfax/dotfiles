@@ -97,3 +97,9 @@ defaults write com.apple.terminal StringEncodings -array 4
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+#
+# Chrome
+#
+
+# command-shift-Q to quit chrome. harder to do by accident.
+defaults write com.google.Chrome NSUserKeyEquivalents -dict-add 'Quit Google Chrome' '@$Q' 

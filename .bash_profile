@@ -1,7 +1,7 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-eval "$(/Users/dragonfax/.zendesk/z/bin/z init -)"
+eval "$($HOME/.zendesk/z/bin/z init -)"
 
 export PATH="$PATH:/usr/local/share/npm/bin"
 

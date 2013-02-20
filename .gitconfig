@@ -6,7 +6,7 @@
 [push]
 	default = upstream
 [core]
-	excludesfile = /Users/dragonfax/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
