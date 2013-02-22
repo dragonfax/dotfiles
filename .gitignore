@@ -54,3 +54,6 @@ VirtualBox VMs/
 z/
 zendesk_pods/
 
+.geeknote/
+.guard_history
+.zendesk
