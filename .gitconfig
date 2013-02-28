@@ -7,6 +7,7 @@
 	default = upstream
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = /usr/bin/vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
