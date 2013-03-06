@@ -103,3 +103,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # command-shift-Q to quit chrome. harder to do by accident.
 defaults write com.google.Chrome NSUserKeyEquivalents -dict-add 'Quit Google Chrome' '@$Q' 
+#
+# Gmail
+defaults write com.google.GmailNotifier Label -string "Important"
