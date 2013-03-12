@@ -42,3 +42,5 @@ let g:solarized_termcolors=256
 set list
 set listchars=tab:▸\ ,trail:_ 
 
+" some of the filetypes seem to break this for me.
+set expandtab
