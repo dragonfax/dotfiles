@@ -14,6 +14,7 @@ set noeol
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 set hlsearch
+set visualbell
 set noerrorbells
 
 " Vundle setup
