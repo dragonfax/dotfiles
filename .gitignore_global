@@ -5,3 +5,4 @@
 *.swo
 .vagrant
 .bundle
+.idea/

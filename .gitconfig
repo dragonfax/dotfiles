@@ -2,11 +2,11 @@
 	name = Jason Stillwell
 	email = jstillwell@zendesk.com
 [credential]
-	helper = osxkeychain
+	helper = /opt/boxen/bin/boxen-git-credential
 [push]
 	default = upstream
 [core]
-	excludesfile = /Users/jstillwell/.gitignore_global
+	excludesfile = ~/.gitignore
 	editor = /usr/bin/vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -18,3 +18,6 @@
 	templatedir = ~/.git_template
 [branch]
     autosetuprebase = always
+
+[hub]
+protocol = https

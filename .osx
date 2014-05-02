@@ -106,3 +106,16 @@ defaults write com.google.Chrome NSUserKeyEquivalents -dict-add 'Quit Google Chr
 #
 # Gmail
 defaults write com.google.GmailNotifier Label -string "Important"
+
+# disable Bonjour notifications when Cyberduck is open.
+defaults write ch.sudo.cyberduck rendezvous.enable false
+
+# disable problem reporter, just annoying when things crash or force quit.
+sudo chmod  000 /System/Library/CoreServices/Problem\ Reporter.app
+
+
+
+# key repeat speed
+defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
+

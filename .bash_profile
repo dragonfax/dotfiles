@@ -22,3 +22,6 @@ alias global-on='sudo mv /Applications/GlobalProtect{OFF,}.app'
 # paths for brew-managed binaries
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
+
+
+source /opt/boxen/env.sh
