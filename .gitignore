@@ -90,3 +90,34 @@ zendesk_pods/
 .ultratron/
 .vegas/
 .w3m/
+
+.RubyMine70/
+.boot2docker/
+.datadog-agent/
+.erlang.cookie
+.mmtop_config.bak
+.my.cnf
+.php_history
+.redis-commander
+.ssh/id_boot2docker.pub
+.ssh/id_rsa2.tddium.pub
+Calibre Library/
+EA Games/
+My Games/
+SavedGames/
+emailer.rb
+evernote.enml
+evernote.txt
+gmvault-db/
+go/
+index.html?name=_dragonfax-logo_thumb.png
+logs/
+notes.txt
+notes/
+perl5/
+pod2.database.yml
+public.gpg.key
+today.txt
+workspace
+workspace_old/
+
