@@ -8,11 +8,11 @@ set expandtab
 
 " expanded from reading others dotfiles
 set nocompatible
-set clipboard=unnamed
-set binary
-set noeol
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+"set clipboard=unnamed
+"set binary
+"set noeol
+"set backupdir=~/.vim/backups
+"set directory=~/.vim/swaps
 set hlsearch
 set visualbell
 set noerrorbells
@@ -20,28 +20,39 @@ set noerrorbells
 " Vundle setup
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'altercation/vim-colors-solarized'
-
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'fatih/vim-go'
+Plugin 'majutsushi/tagbar'
+call vundle#end()
 filetype plugin indent on
-
-" install using git instead of https ( to use my private key )
-let g:vundle_default_git_proto = 'git'
 
 runtime macros/matchit.vim
 
 " for solarize
-syntax enable
 set background=dark
 colorscheme solarized
 " for osx Terminal
 let g:solarized_termcolors=256
 
 
-set list
-set listchars=tab:▸\ ,trail:_ 
+"set list
+"set listchars=tab:▸\ ,trail:_ 
 
 " some of the filetypes seem to break this for me.
-set expandtab
+"set expandtab
+
+"autocmd BufNewFile,BufReadPost *.go set filetype=go
+
+
+syntax on
+
+au FileType go nmap <leader>t <Plug>(go-test)
+
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+
+"TagbarToggle
