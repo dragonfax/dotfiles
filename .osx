@@ -106,3 +106,6 @@ defaults write com.google.Chrome NSUserKeyEquivalents -dict-add 'Quit Google Chr
 #
 # Gmail
 defaults write com.google.GmailNotifier Label -string "Important"
+
+# Items that can't be scripted yet.
+# * enable ForwardAgent in /etc/ssh_config

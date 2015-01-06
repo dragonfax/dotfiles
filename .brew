@@ -3,10 +3,6 @@
 # one time setup script for an osx machine.
 # not only 'brew' formulas
 
-# Install RVM & Ruby
-curl -L https://get.rvm.io | bash -s stable --ruby
-source ~/.rvm/scripts/rvm
-
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
